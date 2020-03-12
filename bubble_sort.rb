@@ -14,9 +14,7 @@ def bubble_sort(array)
   array
 end
 
-
 array = Array.new(10) { rand(1...9) }
 puts " The original array is: #{array} "
 bubble_sort(array)
 puts " The sorted array is: #{array} "
-
