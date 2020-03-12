@@ -6,14 +6,9 @@ def bubble_sort(array)
   until sorted
     sorted = true
 
-    array.each_with_index do |e, i|
-      if i == array.length - 1
-        break
-        print i
-      end
-
+    (0..array.length - 2).each do |i|
       first = array[i]
-      second = array[i+1]
+      second = array[i + 1]
 
       if first > second
         array[i] = second
