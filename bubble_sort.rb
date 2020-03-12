@@ -29,8 +29,3 @@ def bubble_sort_by(array)
   end
   array
 end
-
-# array = Array.new(10) { rand(1...9) }
-array = bubble_sort_by(['hi', 'hello', 'hey']) do |left, right|
-  left.length - right.length
-end
